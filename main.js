@@ -9,4 +9,10 @@ $(document).ready(function() {
          console.log("Entered!");
     });
 
+   $("body").on("keypress", function handleKeypress(event) {
+      if (event.which == 0 || event.which == 32) {
+         console.log('Space pressed');
+  	  }
+    });
+
 });
