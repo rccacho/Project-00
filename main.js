@@ -6,7 +6,7 @@ $(document).ready(function() {
 
    $("body").on("keypress", function handleKeypress(event) {
       if(event.which == 13) 
-         console.log("Entered!");
+        $( "#start1" ).animate({ "left": "+=50px" }, "slow" );
     });
 
    $("body").on("keypress", function handleKeypress(event) {
@@ -14,5 +14,7 @@ $(document).ready(function() {
          console.log('Space pressed');
   	  }
     });
+
+
 
 });
