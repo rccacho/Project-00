@@ -2,7 +2,6 @@
 $(document).ready(function() {
   // all code to manipulate the DOM
   // goes inside this function
-  	alert("Move Cookie Monster by pressing on 'Enter'. Move Elmo by pressing on 'Space'.")
 
 
   	// To move Cookie Monster
@@ -29,8 +28,16 @@ $(document).ready(function() {
   	}
     });
 
-   $("button").on("click", function handleClick(event) {
+   // Reset Button 
+
+   $("#reset").on("click", function handleClick(event) {
    	  location.reload();
+   })
+
+   // Instructions for Gameplay
+
+   $("#instructions").on("click", function handleClick(event) {
+   	  alert("Move Cookie Monster by pressing on 'Enter'. Move Elmo by pressing on 'Space'.");
    })
 
 });
