@@ -1,0 +1,25 @@
+/*.box {
+	border: solid black 1px;
+	height: 150px;
+	background-color: grey;
+}*/
+
+#player1 {
+	position: absolute;
+    left: 10px;
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+
+}
+
+#player2 {
+	position: absolute;
+	left: 10px;
+	top: 250px;
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+
+}
+

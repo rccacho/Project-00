@@ -6,8 +6,8 @@ $(document).ready(function() {
 
    $("body").on("keypress", function handleKeypress(event) {
       if(event.which == 13) {
-        $( "#start1" ).animate({ "left": "+=50px" }, "fast" );	  
-        var position1 = $("#start1").offset();		
+        $( "#player1" ).animate({ "left": "+=50px" }, "fast" );	  
+        var position1 = $("#player1").offset();		
 		if (position1.left >= 1000) {
    		  alert("Win!");
 	  }
@@ -16,8 +16,8 @@ $(document).ready(function() {
 
    $("body").on("keypress", function handleKeypress(event) {
       if (event.which == 0 || event.which == 32) {
-        $( "#start2" ).animate({ "left": "+=50px" }, "fast" );
-        var position2 = $("#start2").offset();	
+        $( "#player2" ).animate({ "left": "+=50px" }, "fast" );
+        var position2 = $("#player2").offset();	
 		if (position2.left >= 1000) {
    		  alert("Win!");
   	  }
