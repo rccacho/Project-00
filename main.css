@@ -27,3 +27,12 @@ h1 {
 	left: 1000px;
 	top: 250px;
 }
+
+button {
+	font-family: 'Varela Round', sans-serif;
+	text-decoration: bold;
+	margin-top: 550px;
+	margin-left: 25px;
+	border-radius: 25px;
+	background-color: #7fc9ff;
+}

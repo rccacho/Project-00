@@ -12,7 +12,7 @@
 
 ## Planned Features
 
-*Possible future features include a counter to keep track of wins, changing fruit for each round, a reset button, and prettier layout.*
+*Possible future features include a counter to keep track of wins, changing fruit for each round, and prettier layout.*
 
 ---
 

@@ -29,5 +29,8 @@ $(document).ready(function() {
   	}
     });
 
+   $("button").on("click", function handleClick(event) {
+   	  location.reload();
+   })
 
 });
