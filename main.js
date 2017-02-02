@@ -5,15 +5,27 @@ $(document).ready(function() {
 
 
    $("body").on("keypress", function handleKeypress(event) {
-      if(event.which == 13) 
-        $( "#start1" ).animate({ "left": "+=50px" }, "slow" );
+      if(event.which == 13) {
+        $( "#start1" ).animate({ "left": "+=50px" }, "fast" );	  
+        var position1 = $("#start1").offset();		
+		if (position1.left >= 1000) {
+   		  alert("Win!");
+	  }
+   	}
     });
 
    $("body").on("keypress", function handleKeypress(event) {
       if (event.which == 0 || event.which == 32) {
-         console.log('Space pressed');
+        $( "#start2" ).animate({ "left": "+=50px" }, "fast" );
+        var position2 = $("#start2").offset();	
+		if (position2.left >= 1000) {
+   		  alert("Win!");
   	  }
+  	}
     });
+
+
+
 
 
 
