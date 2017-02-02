@@ -4,10 +4,10 @@
 
 ## Technologies Used
 
-*HTML 
-*CSS 
-*Javascript
-*JQuery
+* HTML 
+* CSS 
+* Javascript
+* JQuery
 
 ## Existing Features
 
