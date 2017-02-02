@@ -4,7 +4,10 @@
 
 ## Technologies Used
 
-*HTML, CSS, Javascript using JQuery*
+*HTML 
+*CSS 
+*Javascript
+*JQuery
 
 ## Existing Features
 
@@ -16,6 +19,6 @@
 
 ---
 
-##### Screenshot (optional)
+##### 
 
-##### Link to hosted project on GitHub pages or BitBalloon (optional)
+##### <a href="https://pages.github.com" target="_blank">Link</a> to the game!
