@@ -4,6 +4,9 @@ $(document).ready(function() {
   // goes inside this function
   	alert("Move Cookie Monster by pressing on 'Enter'. Move Elmo by pressing on 'Space'.")
 
+
+  	// To move Cookie Monster
+
    $("body").on("keypress", function handleKeypress(event) {
       if(event.which == 13) {
         $( "#player1" ).animate({ "left": "+=50px" }, "fast" );	  
@@ -13,6 +16,8 @@ $(document).ready(function() {
 	  }
    	}
     });
+
+   // To move Elmo
 
    $("body").on("keypress", function handleKeypress(event) {
       if (event.which == 0 || event.which == 32) {
