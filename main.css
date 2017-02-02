@@ -4,22 +4,36 @@
 	background-color: grey;
 }*/
 
-#player1 {
+/*.container {
+	background-color: pink;
+}*/
+
+h1 {
+	font-family: 'Varela Round', sans-serif;
+}
+
+#player1, #player2, #finish1, #finish2 {
 	position: absolute;
     left: 10px;
     width: 90px;
     height: 90px;
     margin: 5px;
+}
 
+#player1 {
+    left: 10px;
 }
 
 #player2 {
-	position: absolute;
 	left: 10px;
 	top: 250px;
-    width: 90px;
-    height: 90px;
-    margin: 5px;
-
 }
 
+#finish1 {
+    left: 1000px;
+}
+
+#finish2 {
+	left: 1000px;
+	top: 250px;
+}
